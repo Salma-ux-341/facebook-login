@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(226, 227, 227);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.loginbox{
+     background-color: white;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     width:360px
+}.left{
+    flex:1;
+    padding-right: 10px;
+}.right{
+    flex:1;
+}.address{
+    width:93%;
+    border-radius: 5px;
+    height:35px;
+    padding-bottom: 10px;
+    margin:10px
+}.forget{
+    display: block;
+    padding-top: 19px;
+
+}.login{
+    background-color: rgb(37, 108, 230);
+    font-size: large;
+    color:white;
+    width: 93%;
+    height: 50px;
+    border-radius:5px
+    
+}.fb{
+    color:rgb(37, 108, 230) ;
+    font-size:50px ;
+}.p{
+    font-size: larger;
+    padding-bottom: 100px;
+}.new-account{
+color:white;
+background-color:rgb(44, 164, 44) ;
+height:50px;
+border-radius: 10px;
+border-color:rgb(44, 164, 44) ;
+width: 200px; 
+font-size: medium;
+}
+.login:hover{
+    cursor:pointer ;
+}
+.forget:hover{
+    text-decoration:dotted;
+}
